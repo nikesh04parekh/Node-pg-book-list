@@ -1,0 +1,22 @@
+{
+  "name": "book-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "scss": "node-sass scss/style.scss public/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mustache-express": "^1.2.8",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0"
+  }
+}
